@@ -1,0 +1,69 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>Movie reviews and facts</title>
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body>
+<nav class="nav navbar-inverse navbar-static-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a>
+                <ul class="nav navbar-nav">
+                    <li><a href="menyval1.html">Reviews</a></li>
+                    <li><a href="menyval2.html">TV's impact on the world</a></li>
+                    <li><a href="menyval3.html">The history of TV and streaming</a></li>
+                    <li><a href="menyval4.html">Top 10 series, movies, and such (imo)</a></li>
+                </ul>
+            </div>
+        </nav>
+
+<div>
+         <center><img id="Pictureleft" src="bilder/ftuhimym.jpg" width="12%">
+         <p class="titlar" >How I Met Your Mother</p>
+
+<content>
+           <p id="himym"> How I Met Your Mother, or HIMYM is about a man telling his children the stories of his and his friends youth, up to meeting his children's mother. Very realistic but with some crazy stories. The show is based in New York City. It is nine seasons of pure entertainment. Very known show with actors such as Josh Radnor, Jason Segel, and Neil Patrick Harris. If you like F.R.I.E.N.D.S watch this. The show is perfect for a person looking for entertainment.</p>
+</content>
+         <img id="Pictureright" src="bilder/ftubrooklyn99.jpg" width="12%">
+
+         <p class="titlar">Brooklyn Nine-Nine </p>
+         <p id="bnn">This show, much like HIMYM is a show made to be funny, but it also manages to put in just an inch of reality. The show revolves around Det. Jake Peralta and his precinct, cracking cases and felanies together. This amazing comedy started 2013 and since then has made a bunch of fans. The show has excellent actors, for example; Andy Samberg, Terry Crews and more. The characters are well written with different personalities and likable in different ways. So good it's rewatchable.</p> 
+
+
+
+        <img id="Pictureleft" src="bilder/ftufriends.jpg" width="12%" height="100%"> 
+        <p class="titlar"> Friends</p>
+        <p id="FR">The classical comedy series with a twist of reality. The show that made the start of many today wellknown actors and actresses like Jennifer Aniston and Matt LeBlanc. This show is based on six friends working their way trough adulthood with lots of sarcasm and jokes. Watch Chandler, Monica, Rachel, Ross, Joey, and Phoebe struggle their way trough life with heartbreak, loss of jobs, and important decisions in everyones favorite show. Gives both the comical and entertaining part, highly recommended for most. </p>
+
+
+        <img src="bilder/sw.jpg" width="10%">
+        <p class="titlar"> Star Wars </p>
+        <p id="sw">This famous story based in space has something for everyone with two different trilogies, another one currently being produced, and a lone film. There are also two animated series, hundreds of comics, and a bunch of fanfilms. The franchise is a big name in the movie industry and has one of the best movie effects in the business. These movies helped develop sci-fi with a huge number of fans and therefore a big number of new sci-fi movies. For everyone interested in sci-fi or fantasy movies, these are a must watch.   
+        </center> 
+</div>
+
+</body>
+</html>
